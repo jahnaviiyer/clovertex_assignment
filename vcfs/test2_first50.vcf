@@ -1,0 +1,81 @@
+##fileformat=VCFv4.1
+##source=gtc_to_vcf 1.2.1
+##reference=file:///MGMSTAR2/SHARED/RESOURCES/Commerical_pipelines/DTC_PIPELINE/hg19noChr_mod.fa
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="GenCall score. For merged multi-locus entries, min(GenCall) score is reported.">
+##contig=<ID=MT,length=16569>
+##contig=<ID=1,length=249250621>
+##contig=<ID=2,length=243199373>
+##contig=<ID=3,length=198022430>
+##contig=<ID=4,length=191154276>
+##contig=<ID=5,length=180915260>
+##contig=<ID=6,length=171115067>
+##contig=<ID=7,length=159138663>
+##contig=<ID=8,length=146364022>
+##contig=<ID=9,length=141213431>
+##contig=<ID=10,length=135534747>
+##contig=<ID=11,length=135006516>
+##contig=<ID=12,length=133851895>
+##contig=<ID=13,length=115169878>
+##contig=<ID=14,length=107349540>
+##contig=<ID=15,length=102531392>
+##contig=<ID=16,length=90354753>
+##contig=<ID=17,length=81195210>
+##contig=<ID=18,length=78077248>
+##contig=<ID=19,length=59128983>
+##contig=<ID=20,length=63025520>
+##contig=<ID=21,length=48129895>
+##contig=<ID=22,length=51304566>
+##contig=<ID=X,length=155270560>
+##contig=<ID=Y,length=59373566>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	VG12350
+MT	73	rs3087742	A	G	.	PASS	.	GT:GQ	1:2
+MT	93	2010-08-MT-981,MTReverseHV2_3	A	G	.	PASS	.	GT:GQ	0:3
+MT	97	rs147830800	G	A	.	PASS	.	GT:GQ	0:2
+MT	103	rs369070397	G	A	.	PASS	.	GT:GQ	0:3
+MT	125	200610-102	T	C	.	PASS	.	GT:GQ	0:2
+MT	183	rs113913230	A	G	.	PASS	.	GT:GQ	0:3
+MT	215	2010-08-MT-550	A	G	.	PASS	.	GT:GQ	0:5
+MT	217	MitoT217C,exm-rs41531144	T	C	.	PASS	.	GT:GQ	0:4
+MT	228	MTReverseCSB1,MitoG228A,exm-rs41323649	G	A	.	PASS	.	GT:GQ	0:5
+MT	235	rs3937037	A	G	.	PASS	.	GT:GQ	0:5
+MT	236	200610-105,MTReverseTFX_1	T	C	.	PASS	.	GT:GQ	0:3
+MT	239	rs145412228	T	C	.	PASS	.	GT:GQ	0:5
+MT	250	rs41400048	T	C	.	PASS	.	GT:GQ	0:4
+MT	263	rs2853515	A	G	.	PASS	.	GT:GQ	1:3
+MT	297	rs3927813	A	G	.	PASS	.	GT:GQ	0:1
+MT	340	rs117394573	C	T	.	PASS	.	GT:GQ	0:3
+MT	408	rs28412942	T	A	.	PASS	.	GT:GQ	0:5
+MT	417	rs28607510	G	A	.	PASS	.	GT:GQ	0:2
+MT	462	rs41402146	C	T	.	PASS	.	GT:GQ	0:2
+MT	467	rs372926566	C	T	.	PASS	.	GT:GQ	0:1
+MT	477	MitoT479C	T	C	.	PASS	.	GT:GQ	0:4
+MT	485	rs386828873	T	A	.	PASS	.	GT:GQ	0:3
+MT	489	MitoT491C,exm-rs28625645,rs28625645,rs373945679	T	C	.	PASS	.	GT:GQ	1:4
+MT	497	rs28660704	C	T	.	PASS	.	GT:GQ	0:3
+MT	499	rs3901846	G	A	.	PASS	.	GT:GQ	0:3
+MT	508	rs113683159	A	G	.	PASS	.	GT:GQ	0:2
+MT	517	MTReverseHV3_7	A	G	.	PASS	.	GT:GQ	0:2
+MT	606	exm2216185	A	G	.	PASS	.	GT:GQ	0:2
+MT	608	rs387906735	A	G	.	PASS	.	GT:GQ	0:1
+MT	611	rs118203886	G	A	.	PASS	.	GT:GQ	0:2
+MT	629	MTReverseTF_1	T	C	.	PASS	.	GT:GQ	0:1
+MT	647	MTReverseTF_2	A	G	.	PASS	.	GT:GQ	0:2
+MT	650	rs386828875	T	A	.	PASS	.	GT:GQ	0:2
+MT	663	rs56489998	A	G	.	PASS	.	GT:GQ	0:3
+MT	678	MTReverseRNR1_1	T	C	.	PASS	.	GT:GQ	0:2
+MT	680	MTReverseRNR1_2	T	C	.	PASS	.	GT:GQ	0:4
+MT	710	MTReverseRNR1_4	T	C	.	PASS	.	GT:GQ	0:2
+MT	711	2010-08-MT-830,MTReverseRNR1_5	T	C	.	PASS	.	GT:GQ	0:2
+MT	722	rs375421760	C	T	.	PASS	.	GT:GQ	0:1
+MT	742	rs368221863	T	C	.	PASS	.	GT:GQ	0:2
+MT	750	MTReverseRNR1_7	A	G	.	PASS	.	GT:GQ	1:3
+MT	752	rs201831870	C	T	.	PASS	.	GT:GQ	0:3
+MT	789	chrM_789	T	C	.	PASS	.	GT:GQ	0:2
+MT	794	MTReverseRNR1_9	T	C	.	PASS	.	GT:GQ	0:2
+MT	827	rs28358569	A	G	.	PASS	.	GT:GQ	0:5
+MT	851	rs28502491	A	G	.	PASS	.	GT:GQ	0:3
+MT	869	rs386828880	C	A	.	PASS	.	GT:GQ	0:2
+MT	921	MTReverseRNR1_11,exm2216198	T	C	.	PASS	.	GT:GQ	0:4
+MT	930	rs41352944	G	A	.	PASS	.	GT:GQ	0:1
+MT	942	rs28579222	A	G	.	PASS	.	GT:GQ	0:5
