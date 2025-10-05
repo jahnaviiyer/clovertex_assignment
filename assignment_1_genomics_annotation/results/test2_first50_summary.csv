@@ -1,0 +1,2 @@
+sample,total_variants,annotated_variant_count,unique_genes_count,unique_genes_example,chr_counts,rsid_present,rsid_missing
+test2_50,50,50,0,[],{'MT': 50},50,0

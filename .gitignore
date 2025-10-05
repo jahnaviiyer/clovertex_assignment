@@ -1,0 +1,50 @@
+cd ~/clovertex_assignment
+cat > .gitignore <<'EOF'
+# OS
+.DS_Store
+Thumbs.db
+
+# Python / venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+clovertex_env/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Nextflow/work directories
+work/
+.nextflow.log
+.nextflow/
+.nextflow*
+
+# Built results or caches (do NOT upload VEP cache)
+vep_cache/
+*.tar.gz
+*.fa
+*.fa.gz
+*.fasta
+*.fq
+*.fastq
+*.bam
+*.bai
+*.sam
+*.cram
+
+# large data directories
+results/           # optional: remove this line if you want to include small result files
+vcfs/*.vcf.gz      # compress VCFs if needed
+vcfs/*.tar.gz
+
+# Editor files
+*.swp
+.idea/
+.vscode/
+
+# OS packages
+*.deb
+EOF
