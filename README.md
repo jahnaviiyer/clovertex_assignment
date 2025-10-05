@@ -16,7 +16,8 @@ Two assignments were completed:
 
 **🧩 Folder Structure**
 
-<img width="691" height="415" alt="image" src="https://github.com/user-attachments/assets/28181291-627f-4ef0-acf5-638a8963f6e4" />
+<img width="871" height="528" alt="image" src="https://github.com/user-attachments/assets/1a6c374e-e084-4941-919f-e0d853b51e09" />
+
 
 **⚙️ Environment Setup**
 
